@@ -2,7 +2,10 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "data": "libs/data",
     "demo-back": "apps/demo-back",
-    "demo-front": "apps/demo-front"
+    "demo-front": "apps/demo-front",
+    "ui": "libs/ui",
+    "ui-e2e": "apps/ui-e2e"
   }
 }
